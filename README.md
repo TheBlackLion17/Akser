@@ -15,7 +15,7 @@ BOT IN MAINTANCE📌
 </p>
 <div align="center">
  <p align="center">
-<a href="#"><img title="AK KARMA" src="https://img.shields.io/badge/BASILSER-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="AK KARMA" src="https://img.shields.io/badge/AK KARMA-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/TheBlackLion17"><img title="Author" src="https://img.shields.io/badge/Author-TheBlackLion17-/pikachu?color=blue&style=for-the-badge&logo=whatsapp"></a>
@@ -88,7 +88,7 @@ $ pkg install git
 $ git clone https://github.com/TheBlackLion17/akserbot
 $ cd akserbot
 $ chmod +x *
-$ npm install @adiwajshing/baileys
+$ npm install @theblacklion17/akser
 $ npm install chalk
 $ node qr.js
 ```
