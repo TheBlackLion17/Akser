@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: /catbot/Dockerfile
+      worker: /Akserbot/Dockerfile
 run:
    worker: npm start

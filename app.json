@@ -1,9 +1,9 @@
 {
-    "name": "CATBOTS",
-    "description": "catbots - Whatsapp Bot",
+    "name": "AKSER",
+    "description": "akser - Whatsapp Bot",
     "logo": "https://i.imgur.com/HBlOhMc.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/Itsmebasil0/catbot1",
+    "repository": "https://github.com/TheBlackLion17/akserbot",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
