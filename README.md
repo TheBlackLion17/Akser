@@ -15,7 +15,7 @@ BOT IN MAINTANCE📌
 </p>
 <div align="center">
  <p align="center">
-<a href="#"><img title="BASILSER" src="https://img.shields.io/badge/BASILSER-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="AK KARMA" src="https://img.shields.io/badge/BASILSER-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/TheBlackLion17"><img title="Author" src="https://img.shields.io/badge/Author-TheBlackLion17-/pikachu?color=blue&style=for-the-badge&logo=whatsapp"></a>
@@ -118,7 +118,7 @@ By establishing the Pikachu, you are deemed to have accepted these responsibilit
     
   [![TheBlackLion17](https://github.com/TheBlackLion17.png?size=100)](https://github.com/TheBlackLion17) | 
 ----|
-[BASILSER](https://github.com/TheBlackLion17)
+[AK KARMA](https://github.com/TheBlackLion17)
 Base, Bug Fixes, Modules | Modifiying as public | Bug Fixes, Modules | Bug fixes, ideas
   </div>
 
